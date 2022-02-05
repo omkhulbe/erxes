@@ -9,7 +9,7 @@
     "@cubejs-backend/elasticsearch-driver": "^0.19.17",
     "@cubejs-backend/server": "^0.19.14",
     "@cubejs-client/core": "^0.22.2",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "elasticsearch": "^16.7.1",
     "express": "^4.17.1",
     "sqlstring": "^2.3.2"
