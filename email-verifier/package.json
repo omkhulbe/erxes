@@ -20,7 +20,7 @@
     "request-promise": "^4.2.5",
     "requestify": "^0.2.5",
     "ts-node": "8.0.3",
-    "xss": "^1.0.6"
+    "xss": "^1.0.10"
   },
   "peerOptionalDependencies": {
     "kerberos": "^1.0.0"
