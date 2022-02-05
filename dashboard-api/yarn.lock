@@ -941,19 +941,18 @@
     node-machine-id "^1.1.10"
     ws "^7.1.2"
 
-"@cubejs-client/core@^0.22.2":
-  version "0.22.2"
-  resolved "https://registry.yarnpkg.com/@cubejs-client/core/-/core-0.22.2.tgz#27b5b584fd3b6abb4b981fbd64ed41b8bfc35a89"
-  integrity sha512-ZDvipw8Il4/QoJd7B/vqboSrXOyIm1+Uidv/LoxPIAW14tjI2rTYh+gDpUH2URYWD+jpNWxEpcx8WB75KxGoow==
+"@cubejs-client/core@^0.29.8":
+  version "0.29.23"
+  resolved "https://registry.yarnpkg.com/@cubejs-client/core/-/core-0.29.23.tgz#0a6dbafe3a5b9de44300a6c03cb2e1481de10b06"
+  integrity sha512-LnWqsXEg8tm4EgLdTD4+wfPdlqhiHLm6pB22sb/KLkkc4NvXrUFPHLbxg0lMGje65repqQpUYKbuMvtGLNbKXQ==
   dependencies:
     "@babel/runtime" "^7.1.2"
     core-js "^3.6.5"
     cross-fetch "^3.0.2"
-    moment "^2.22.2"
-    moment-range "^4.0.1"
+    dayjs "^1.10.4"
     ramda "^0.27.0"
     url-search-params-polyfill "^7.0.0"
-    uuid "^3.4.0"
+    uuid "^8.3.2"
 
 "@elastic/elasticsearch@^7.5.0":
   version "7.7.1"
@@ -1238,6 +1237,11 @@ d@1, d@^1.0.1:
   dependencies:
     es5-ext "^0.10.50"
     type "^1.0.1"
+
+dayjs@^1.10.4:
+  version "1.10.7"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.10.7.tgz#2cf5f91add28116748440866a0a1d26f3a6ce468"
+  integrity sha512-P6twpd70BcPK34K26uJ1KT3wlhpuOAPoMwJzpsIWUxHZ7wpmbdZL/hQqBDfz7hGurYSa5PhzdhDHtt319hL3ig==
 
 dayjs@^1.8.19:
   version "1.8.25"
@@ -1802,11 +1806,6 @@ moment-timezone@^0.5.27, moment-timezone@^0.5.28:
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
 
-moment@^2.22.2:
-  version "2.29.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
-  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
-
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -2279,10 +2278,15 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@^3.3.3, uuid@^3.4.0:
+uuid@^3.3.3:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 vary@^1, vary@~1.1.2:
   version "1.1.2"
