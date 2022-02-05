@@ -19,7 +19,7 @@
     "erxes": "./bin/erxes.js"
   },
   "dependencies": {
-    "chalk": "^4.1.0",
+    "chalk": "^4.1.2",
     "cli-progress": "^3.8.2",
     "commander": "^6.2.0",
     "execa": "^4.1.0",
