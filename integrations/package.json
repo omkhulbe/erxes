@@ -25,7 +25,7 @@
     "@types/mongodb": "^3.1.2",
     "@types/mongoose": "^5.2.1",
     "@types/node": "^10.12.18",
-    "amqplib": "^0.5.5",
+    "amqplib": "^0.7.1",
     "body-parser": "^1.17.1",
     "botbuilder": "^4.4.0",
     "botbuilder-adapter-facebook-erxes": "^1.0.5",
