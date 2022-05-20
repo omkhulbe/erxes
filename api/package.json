@@ -53,7 +53,7 @@
     "faker": "^4.1.0",
     "file-type": "^10.4.0",
     "firebase-admin": "^8.6.1",
-    "formidable": "^1.1.1",
+    "formidable": "^3.2.4",
     "generate-password": "^1.5.1",
     "git-repo-info": "^2.1.0",
     "graphql": "^14.0.2",
