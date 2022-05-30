@@ -1,4 +1,4 @@
-FROM node:12.16-slim
+FROM node:12.22.12-slim
 RUN npm install -g cubejs-cli
 WORKDIR /erxes-dashboard-api
 RUN chown -R node:node /erxes-dashboard-api
