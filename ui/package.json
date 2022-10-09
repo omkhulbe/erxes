@@ -70,7 +70,8 @@
     "ua-parser-js": "^0.7.17",
     "underscore.string": "^3.3.5",
     "validator": "^12.1.0",
-    "xss": "^1.0.3"
+    "xss": "^1.0.3",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -81,7 +82,9 @@
     "eject": "react-scripts eject",
     "componentTest": "jest --runInBand --forceExit --detectOpenHandles --coverage",
     "open-cypress": "yarn run cypress open",
-    "record-cypress": "cypress run --record --key fd048d49-6b4c-4e6b-885f-819a533c2fc4"
+    "record-cypress": "cypress run --record --key fd048d49-6b4c-4e6b-885f-819a533c2fc4",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "enzyme": "^3.3.0",
@@ -98,5 +101,6 @@
   ],
   "engines": {
     "node": ">=10.x.x"
-  }
+  },
+  "snyk": true
 }
