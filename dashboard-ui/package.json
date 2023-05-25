@@ -45,7 +45,8 @@
     "styled-components": "^5.1.0",
     "styled-components-ts": "^0.0.15",
     "subscriptions-transport-ws": "^0.9.16",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -53,7 +54,9 @@
     "build": "react-scripts build",
     "build-local": "PUBLIC_URL=/ react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -75,5 +78,6 @@
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.0.1",
     "tslint-react": "^4.0.0"
-  }
+  },
+  "snyk": true
 }
