@@ -61,7 +61,7 @@
     "react-apollo": "^2.1.9",
     "react-dom": "16.4.2",
     "react-transition-group": "^2.4.0",
-    "source-map-loader": "^0.2.3",
+    "source-map-loader": "^1.0.0",
     "style-loader": "^0.16.1",
     "subscriptions-transport-ws": "^0.9.14",
     "uglifyjs-webpack-plugin": "^2.2.0",
